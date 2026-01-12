@@ -1,0 +1,58 @@
+Unidade 3 — Desafio 2
+Cardápio Digital (Simulação no Console)
+Descrição do Desafio
+
+Neste desafio, você irá criar um cardápio digital que funciona apenas no console, sem uso de HTML ou interface gráfica.
+O objetivo é simular o funcionamento básico de um sistema de pedidos, utilizando arrays, funções, loops e condicionais.
+
+Regras do Cardápio
+
+O cardápio deve conter 10 comidas, escolhidas livremente por quem estiver desenvolvendo o programa.
+
+Cada comida deve começar com quantidade de pedidos igual a 0.
+
+O programa deve possuir uma função chamada pedirComida.
+
+Toda vez que uma comida for pedida:
+
+O contador de pedidos dessa comida deve aumentar em 1.
+
+Quando uma comida atingir 10 pedidos, ela deve:
+
+Ser removida do cardápio
+
+Não poder mais ser pedida
+
+Todas as informações devem ser exibidas no console.
+
+Requisitos Técnicos
+
+O programa deve utilizar:
+
+Arrays
+
+Funções com parâmetros
+
+Loops para percorrer o cardápio
+
+Condicionais (if)
+
+Métodos de array (push, splice, length)
+
+Estrutura Sugerida
+
+Um array para armazenar as comidas
+
+Um array ou estrutura para armazenar a quantidade de pedidos
+
+Uma função mostrarCardapio()
+
+Uma função pedirComida(nomeDaComida)
+
+Mensagens claras no console informando:
+
+Pedido realizado
+
+Quantidade atual de pedidos
+
+Remoção da comida quando atingir o limite

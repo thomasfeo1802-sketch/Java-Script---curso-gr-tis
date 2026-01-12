@@ -1,0 +1,135 @@
+Introdução aos Arrays em JavaScript
+
+Nesta aula, você aprenderá o que são arrays e como utilizá-los em JavaScript.
+Arrays são estruturas de dados utilizadas para armazenar vários valores dentro de uma única variável, organizados de forma sequencial.
+
+Enquanto uma variável comum armazena apenas um valor, um array permite armazenar uma lista de valores relacionados, facilitando a organização e manipulação de dados.
+
+Estrutura de um Array
+
+A estrutura básica de um array em JavaScript é a seguinte:
+
+let array1 = ["item 1", "item 2", "item 3"];
+
+Os valores do array são separados por vírgulas e armazenados entre colchetes ([ ]).
+
+Tipos de Dados em Arrays
+
+Um array pode armazenar diferentes tipos de dados, como:
+
+number — números;
+
+string — textos;
+
+boolean — valores lógicos (true ou false).
+
+Exemplo:
+
+let dados = [10, "texto", true];
+
+Índices (Index)
+
+Um conceito fundamental ao trabalhar com arrays é o índice.
+
+Os índices são números que identificam a posição de cada elemento dentro do array.
+Em JavaScript, os índices sempre começam em 0 e aumentam de acordo com a quantidade de elementos.
+
+Exemplo de índices
+let comidas = ["arroz", "feijão", "macarrão"];
+// índices:        0         1           2
+
+Nesse exemplo:
+
+"arroz" está no índice 0;
+
+"feijão" está no índice 1;
+
+"macarrão" está no índice 2.
+
+Acessando Elementos de um Array
+
+Para acessar um valor específico de um array, utilizamos o nome do array seguido do índice desejado:
+
+console.log(comidas[0]); // arroz
+
+Modificando um Elemento do Array
+
+É possível modificar um valor existente no array informando o índice que será alterado:
+
+comidas[0] = "feijão";
+
+Antes:
+
+["arroz", "feijão", "macarrão"]
+
+Depois:
+
+["feijão", "feijão", "macarrão"]
+
+Adicionando Elementos a um Array
+Usando o método push()
+
+O método push() adiciona um ou mais elementos ao final do array:
+
+let numeros = [0, 1, 2, 3, 4, 5];
+numeros.push(6, 7);
+
+Resultado:
+
+[0, 1, 2, 3, 4, 5, 6, 7]
+
+Lembre-se: os índices começam em 0, não em 1.
+
+Adicionando diretamente pelo índice
+
+Também é possível adicionar um elemento informando um novo índice:
+
+let numeros = [1, 2, 3, 4];
+numeros[4] = 5;
+
+Resultado:
+
+[1, 2, 3, 4, 5]
+
+Removendo Elementos de um Array
+
+Para remover elementos de um array, utilizamos o método splice().
+
+Estrutura do splice()
+array.splice(indice, quantidade);
+
+Exemplo
+numeros.splice(0, 1);
+
+Esse comando remove 1 elemento a partir do índice 0.
+
+Exibindo Arrays no Console
+
+Para exibir todo o array no console:
+
+console.log(numeros);
+
+Para exibir apenas um elemento específico:
+
+console.log(numeros[0]);
+
+Acesso Correto a Múltiplos Elementos
+
+Em JavaScript, não é possível acessar vários índices ao mesmo tempo usando array[0, 3, 5].
+Esse tipo de acesso não funciona como esperado.
+
+A forma correta é acessar cada índice separadamente:
+
+let pessoas = ["Carlos", "João", "Fabrício", "Thomas", "Fulano", "Ciclano"];
+
+console.log(pessoas[0]);
+console.log(pessoas[3]);
+console.log(pessoas[5]);
+
+Ou utilizando loops, o que será visto nas próximas aulas.
+
+Considerações Finais
+
+Arrays são estruturas essenciais em JavaScript e estão presentes em praticamente todas as aplicações reais. O domínio de arrays é fundamental para trabalhar com listas, cadastros, jogos, sistemas e manipulação de dados em geral.
+
+Na próxima aula, você aprenderá os métodos de arrays, que são conceitos fundamentais da linguagem.

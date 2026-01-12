@@ -1,0 +1,83 @@
+Funções e Constantes em JavaScript
+
+Nesta etapa do aprendizado, serão abordados dois conceitos fundamentais da linguagem JavaScript: funções e constantes. Ambos são amplamente utilizados no desenvolvimento de aplicações, pois contribuem para a organização, reutilização e segurança do código.
+
+Funções
+
+As funções são blocos de código responsáveis por executar uma tarefa específica. Elas permitem agrupar instruções que podem ser reutilizadas sempre que necessário, evitando repetição de código e facilitando a manutenção do programa.
+
+Uma função só é executada quando é chamada (invocada) dentro do código principal ou a partir de outro ponto do programa.
+
+Vantagens do uso de funções
+
+Organização do código em partes menores e mais legíveis;
+
+Reutilização de código;
+
+Facilidade de manutenção e correção de erros;
+
+Melhor controle do fluxo da aplicação.
+
+Estrutura básica de uma função
+function nomeDaFuncao() {
+    // código a ser executado
+}
+
+Exemplo de função
+function mostrarMensagem() {
+    console.log("Olá, esta é uma função!");
+}
+
+
+Para executar a função, é necessário chamá-la:
+
+mostrarMensagem();
+
+
+As funções também podem receber parâmetros, que são valores enviados para a função no momento da chamada:
+
+function somar(a, b) {
+    return a + b;
+}
+
+let resultado = somar(5, 3);
+console.log(resultado); // saída: 8
+
+Constantes
+
+As constantes são semelhantes às variáveis, porém possuem uma característica essencial:
+o valor atribuído a uma constante não pode ser alterado após a sua definição.
+
+Em outras palavras, uma constante mantém o mesmo valor durante toda a execução do programa, garantindo maior segurança e previsibilidade no código.
+
+Quando utilizar constantes
+
+Para valores que não devem ser modificados;
+
+Para configurações fixas;
+
+Para valores padrões do sistema;
+
+Para evitar alterações acidentais no código.
+
+Estrutura de uma constante
+const nome = valor;
+
+Exemplo de constante
+const PI = 3.14159;
+const MAX_VIDAS = 3;
+
+
+Se houver tentativa de alterar o valor de uma constante, o JavaScript exibirá um erro:
+
+PI = 3.14; // Erro: Assignment to constant variable
+
+Diferença entre Variáveis e Constantes
+Tipo	Pode mudar o valor?	Uso recomendado
+let	Sim	Valores que variam durante o programa
+const	Não	Valores fixos e imutáveis
+Considerações Finais
+
+O uso correto de funções e constantes é essencial para escrever códigos mais organizados, eficientes e profissionais. Esses conceitos são a base para estruturas mais avançadas da linguagem, como eventos, objetos e módulos.
+
+Os exemplos práticos podem ser encontrados no arquivo aula3.js, onde esses conceitos são aplicados de forma direta e funcional.

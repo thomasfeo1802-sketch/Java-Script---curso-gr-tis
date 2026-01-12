@@ -1,0 +1,161 @@
+Simulação de Estados e Fluxo de um Sistema
+
+Até agora, você aprendeu a planejar e estruturar um sistema.
+Nesta aula, você vai aprender algo essencial para qualquer software de verdade: estado.
+
+Um sistema não é algo parado. Ele muda conforme o usuário interage com ele.
+Essas mudanças são chamadas de estado do sistema.
+
+1. O que é estado?
+
+Estado é o conjunto de informações que representam a situação atual do sistema.
+
+Exemplos de estado:
+
+Usuário logado ou não
+
+Produtos disponíveis ou esgotados
+
+Pontuação atual de um jogo
+
+Saldo de uma conta
+
+Fase atual de um programa
+
+Se o estado muda, o comportamento do sistema também muda.
+
+2. Por que estado é tão importante?
+
+Sem estado:
+
+O programa sempre faz a mesma coisa
+
+Não existe progresso
+
+Não existe lógica real
+
+Com estado:
+
+O sistema reage
+
+Decisões são tomadas
+
+A lógica se torna dinâmica
+
+Todo jogo, aplicativo, site ou sistema depende disso.
+
+3. Variáveis de controle
+
+O estado normalmente é representado por variáveis de controle.
+
+Exemplos:
+
+let ligado = true
+
+let tentativas = 3
+
+let faseAtual = 1
+
+let saldo = 100
+
+Essas variáveis:
+
+Mudam ao longo do programa
+
+Influenciam decisões
+
+Controlam o fluxo
+
+4. Fluxo do sistema
+
+Fluxo é o caminho que o programa segue, baseado no estado atual.
+
+Exemplo de perguntas que o código responde:
+
+O usuário pode continuar?
+
+O sistema deve parar?
+
+Uma ação é permitida?
+
+Algo precisa ser bloqueado?
+
+Esse controle é feito com:
+
+if / else
+
+loops
+
+funções
+
+5. Simulando interações
+
+Mesmo rodando apenas no console, é possível simular interações reais.
+
+Exemplos:
+
+Um sistema que limita ações
+
+Um menu que muda opções
+
+Um jogo simples
+
+Um sistema de pedidos
+
+Um controle de estoque
+
+Cada interação:
+
+Lê o estado atual
+
+Executa uma ação
+
+Atualiza o estado
+
+6. Separação entre lógica e execução
+
+Um bom sistema separa:
+
+Lógica → regras do sistema
+
+Execução → chamadas das funções
+
+Isso permite:
+
+Reutilizar código
+
+Facilitar testes
+
+Evitar erros
+
+O sistema deve ser previsível e organizado.
+
+7. Pensamento profissional
+
+Antes de escrever o código, pergunte:
+
+Quais estados existem?
+
+Quando eles mudam?
+
+O que pode ou não acontecer em cada estado?
+
+Quem domina estado e fluxo domina programação.
+
+8. Objetivo desta aula
+
+Ao final desta aula, você deve ser capaz de:
+
+Identificar estados em um sistema
+
+Controlar o fluxo do programa
+
+Simular interações reais
+
+Criar sistemas mais inteligentes e dinâmicos
+
+Na próxima aula, você vai aprender a validar ações, evitando erros e comportamentos inválidos no sistema.
+
+Conclusão:
+Programar não é apenas escrever comandos.
+É controlar o que pode acontecer, quando pode acontecer e por quê.

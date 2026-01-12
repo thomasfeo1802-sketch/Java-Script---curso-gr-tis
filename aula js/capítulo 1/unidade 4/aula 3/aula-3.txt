@@ -1,0 +1,124 @@
+Introdução
+
+Na aula anterior, você aprendeu a criar classes, usar o constructor e instanciar objetos.
+Nesta aula, você avançará para um dos pilares mais importantes da Programação Orientada a Objetos: o encapsulamento.
+
+O encapsulamento é o que diferencia um código “que funciona” de um código bem projetado e seguro.
+
+O que é Encapsulamento?
+
+Encapsulamento é o conceito de proteger os dados internos de um objeto, controlando como eles podem ser acessados ou modificados.
+
+Em vez de permitir que qualquer parte do código altere diretamente os dados, o objeto passa a controlar suas próprias regras.
+
+O Problema de Acesso Direto
+
+Sem encapsulamento, qualquer código pode fazer isso:
+
+jogador.vida = -999;
+
+
+Isso gera estados inválidos e bugs difíceis de corrigir.
+
+A solução é controlar o acesso às propriedades.
+
+Propriedades Privadas em JavaScript
+
+Em JavaScript moderno, usamos # para criar propriedades privadas.
+
+Exemplo:
+
+class ContaBancaria {
+    #saldo;
+
+    constructor(saldoInicial) {
+        this.#saldo = saldoInicial;
+    }
+}
+
+
+A propriedade #saldo:
+
+Só pode ser acessada dentro da classe
+
+Não pode ser acessada diretamente de fora
+
+O que são Getters e Setters?
+
+Getters e setters são métodos especiais usados para:
+
+Ler um valor privado (getter)
+
+Modificar um valor privado com regras (setter)
+
+Exemplo de Getter
+get saldo() {
+    return this.#saldo;
+}
+
+
+Permite acessar o saldo de forma controlada:
+
+console.log(conta.saldo);
+
+Exemplo de Setter
+set saldo(valor) {
+    if (valor < 0) {
+        console.log("Valor inválido.");
+        return;
+    }
+    this.#saldo = valor;
+}
+
+
+Agora, o objeto decide se a alteração é válida.
+
+Encapsulamento na Prática
+
+Com encapsulamento:
+
+Dados ficam protegidos
+
+Regras ficam centralizadas
+
+Código fica mais seguro
+
+Manutenção fica mais fácil
+
+Esse conceito é amplamente usado em:
+
+Sistemas bancários
+
+Jogos
+
+APIs
+
+Aplicações profissionais
+
+O que você aprendeu nesta aula
+
+Ao final desta aula, você será capaz de:
+
+Entender o conceito de encapsulamento
+
+Criar propriedades privadas
+
+Utilizar getters e setters
+
+Proteger dados internos de um objeto
+
+Aplicar regras dentro da classe
+
+Preparação para a Próxima Aula
+
+Na próxima aula, você aprenderá:
+
+Herança
+
+Uso de extends
+
+Reaproveitamento de classes
+
+Hierarquia de objetos
+
+A partir daí, seus códigos ficarão ainda mais próximos de sistemas reais.

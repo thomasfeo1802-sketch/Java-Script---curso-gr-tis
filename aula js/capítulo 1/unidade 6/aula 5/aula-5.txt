@@ -1,0 +1,139 @@
+Eventos: Fazendo o JavaScript Reagir ao Usuário (Prática)
+
+Até agora, o JavaScript apenas alterava a página sozinho.
+Nesta aula, ele começa a reagir às ações do usuário.
+
+Eventos são o que transformam um site estático em interativo.
+
+1. O que é um evento?
+
+Um evento é qualquer ação do usuário ou do sistema.
+
+Exemplos comuns:
+
+Clique do mouse
+
+Tecla pressionada
+
+Movimento do mouse
+
+Carregamento da página
+
+Alteração de valor
+
+O JavaScript pode “escutar” esses eventos e reagir a eles.
+
+2. Por que eventos são fundamentais?
+
+Sem eventos:
+
+O usuário não interage
+
+O sistema não responde
+
+Não existe aplicação real
+
+Todo sistema web depende de eventos.
+
+3. Evento de clique (click)
+
+O evento mais comum é o clique.
+
+elemento.addEventListener("click", funcao);
+
+
+Exemplo prático:
+
+let botao = document.getElementById("botao");
+
+botao.addEventListener("click", function() {
+    console.log("Botão clicado");
+});
+
+4. Funções como resposta a eventos
+
+O que acontece quando o evento ocorre?
+Uma função é executada.
+
+Essa função pode:
+
+Alterar texto
+
+Mudar estado
+
+Chamar outras funções
+
+Validar ações
+
+5. Eventos com lógica e estado
+
+Eventos quase sempre trabalham com estado.
+
+Exemplo:
+
+Botão liga/desliga
+
+Contador
+
+Sistema ativo/inativo
+
+Cada clique muda o estado do sistema.
+
+6. Outros eventos importantes
+
+Além do click, existem muitos eventos úteis:
+
+change
+
+input
+
+keydown
+
+mouseover
+
+mouseout
+
+Todos seguem a mesma lógica.
+
+7. Separando lógica do evento
+
+Boa prática:
+
+Evento apenas chama função
+
+Função contém a lógica
+
+Isso deixa o código limpo e reutilizável.
+
+8. Pensamento profissional
+
+Sempre pense:
+
+Quem dispara o evento?
+
+O que pode acontecer?
+
+O estado permite essa ação?
+
+O que muda depois?
+
+Eventos controlam o fluxo do sistema.
+
+9. Objetivo desta aula
+
+Ao final desta aula, você deve ser capaz de:
+
+Criar eventos de clique
+
+Reagir a ações do usuário
+
+Alterar estado via eventos
+
+Criar interatividade básica com JavaScript
+
+Conclusão
+
+Eventos são o coração da interatividade.
+A partir daqui, o JavaScript deixa de apenas mostrar coisas e passa a responder ao usuário.
+
+Na próxima etapa, você começará a unir eventos, estado e lógica, criando sistemas completos no navegador.

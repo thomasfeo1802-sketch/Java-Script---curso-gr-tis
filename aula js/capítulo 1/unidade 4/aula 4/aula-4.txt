@@ -1,0 +1,131 @@
+Herança e Reaproveitamento de Código (extends e super)
+Introdução
+
+Até agora, você aprendeu a criar classes, utilizar construtores, instanciar objetos e proteger dados usando encapsulamento.
+Nesta aula, você dará mais um passo fundamental na Programação Orientada a Objetos: a herança.
+
+A herança permite reaproveitar código, criar hierarquias de classes e modelar sistemas complexos de forma organizada e eficiente.
+
+O que é Herança?
+
+Herança é o conceito que permite que uma classe herde características e comportamentos de outra classe.
+
+A classe que fornece as informações é chamada de classe pai (superclasse)
+
+A classe que herda é chamada de classe filha (subclasse)
+
+A classe filha:
+
+Herda propriedades
+
+Herda métodos
+
+Pode criar novos métodos
+
+Pode sobrescrever métodos existentes
+
+Por que usar Herança?
+
+A herança evita:
+
+Repetição de código
+
+Código desorganizado
+
+Manutenção difícil
+
+Ela permite:
+
+Reaproveitamento de lógica
+
+Criação de sistemas extensíveis
+
+Organização em níveis
+
+Criando Herança em JavaScript
+
+Em JavaScript, usamos a palavra-chave extends para criar herança.
+
+Exemplo:
+
+class Personagem {
+}
+
+class Guerreiro extends Personagem {
+}
+
+
+Nesse caso, Guerreiro herda tudo de Personagem.
+
+O Uso do super()
+
+Quando uma classe possui herança, o constructor da classe filha deve chamar o constructor da classe pai usando super().
+
+Exemplo:
+
+class Personagem {
+    constructor(nome, vida) {
+        this.nome = nome;
+        this.vida = vida;
+    }
+}
+
+class Guerreiro extends Personagem {
+    constructor(nome, vida, ataque) {
+        super(nome, vida);
+        this.ataque = ataque;
+    }
+}
+
+Sobrescrevendo Métodos
+
+Uma classe filha pode redefinir um método da classe pai.
+
+Exemplo:
+
+atacar() {
+    console.log(this.nome + " atacou com espada!");
+}
+
+
+Isso permite comportamentos diferentes para cada tipo de objeto.
+
+Herança na Prática
+
+A herança é amplamente utilizada em:
+
+Jogos (personagens, inimigos, classes)
+
+Sistemas bancários
+
+Aplicações web
+
+APIs
+
+Softwares corporativos
+
+O que você aprendeu nesta aula
+
+Ao final desta aula, você será capaz de:
+
+Entender o conceito de herança
+
+Criar classes com extends
+
+Usar super() corretamente
+
+Reaproveitar código
+
+Criar hierarquias de classes
+
+Preparação para a Próxima Aula
+
+Na próxima aula, você aprenderá:
+
+Polimorfismo
+
+Métodos com comportamentos diferentes
+
+Uso avançado de herança
+
+Boas práticas em POO

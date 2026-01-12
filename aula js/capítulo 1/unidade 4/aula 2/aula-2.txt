@@ -1,0 +1,145 @@
+Classes, Construtor e Instâncias (POO)
+Introdução
+
+Na aula anterior, você aprendeu o que são objetos e como eles ajudam a organizar melhor o código.
+Nesta aula, você dará um passo fundamental na Programação Orientada a Objetos: aprenderá a criar classes.
+
+As classes permitem criar múltiplos objetos com a mesma estrutura, evitando repetição de código e tornando seus programas muito mais profissionais e escaláveis.
+
+O que é uma Classe?
+
+Uma classe funciona como um molde ou modelo para criar objetos.
+
+Pense da seguinte forma:
+
+A classe é o projeto
+
+O objeto é o que foi construído a partir desse projeto
+
+Exemplo do mundo real:
+
+Classe: Pessoa
+
+Objetos: Carlos, Ana, João, Maria
+
+Todos são pessoas, mas cada uma possui seus próprios dados.
+
+Criando uma Classe em JavaScript
+
+Em JavaScript, criamos classes usando a palavra-chave class.
+
+Exemplo básico:
+
+class Pessoa {
+}
+
+
+Sozinha, essa classe ainda não faz nada. Precisamos definir propriedades e métodos.
+
+O Método constructor
+
+O constructor é um método especial que:
+
+É executado automaticamente quando um objeto é criado
+
+Serve para inicializar as propriedades do objeto
+
+Exemplo:
+
+class Pessoa {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+
+Nesse exemplo:
+
+nome e idade são parâmetros
+
+this se refere ao objeto que está sendo criado
+
+O que é uma Instância?
+
+Uma instância é um objeto criado a partir de uma classe.
+
+Exemplo:
+
+let pessoa1 = new Pessoa("Carlos", 20);
+let pessoa2 = new Pessoa("Ana", 18);
+
+
+Ambos são objetos diferentes, mas seguem o mesmo modelo (Pessoa).
+
+Adicionando Métodos à Classe
+
+Além do constructor, uma classe pode ter métodos, que representam ações do objeto.
+
+Exemplo:
+
+class Pessoa {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    apresentar() {
+        console.log("Nome:", this.nome);
+        console.log("Idade:", this.idade);
+    }
+}
+
+
+Agora, todo objeto criado a partir dessa classe terá o método apresentar.
+
+Usando Métodos do Objeto
+let pessoa = new Pessoa("Carlos", 20);
+pessoa.apresentar();
+
+
+Cada objeto utiliza seus próprios valores, mesmo compartilhando os mesmos métodos.
+
+Vantagens de Usar Classes
+
+O uso de classes permite:
+
+Evitar repetição de código
+
+Criar múltiplos objetos facilmente
+
+Manter o código organizado
+
+Facilitar manutenção e expansão
+
+Trabalhar com sistemas maiores
+
+É exatamente por isso que classes são a base da POO.
+
+O que você aprendeu nesta aula
+
+Ao final desta aula, você é capaz de:
+
+Entender o conceito de classe
+
+Criar classes em JavaScript
+
+Utilizar o constructor
+
+Criar instâncias com new
+
+Criar e usar métodos dentro de classes
+
+Preparação para a Próxima Aula
+
+Na próxima aula, você aprenderá:
+
+Encapsulamento
+
+Propriedades públicas e privadas
+
+Getters e setters
+
+Boas práticas de organização em POO
+
+A partir daí, seus códigos começarão a ter estrutura de sistemas reais.

@@ -1,0 +1,158 @@
+Pensando como um Programador: Planejamento e Lógica de Sistemas
+
+Até agora, você aprendeu a escrever código.
+A partir desta unidade, o objetivo é aprender a pensar antes de escrever o código, como um programador profissional faz.
+
+Nesta aula, o foco não é digitar JavaScript imediatamente, mas entender como transformar um problema real em lógica de programação.
+
+1. O que muda na Unidade 5?
+
+Nas unidades anteriores, você trabalhou com:
+
+Variáveis
+
+Condições (if / else)
+
+Loops
+
+Funções
+
+Arrays
+
+Objetos
+
+Programação Orientada a Objetos (POO)
+
+Agora, todos esses conceitos passam a ser usados juntos, dentro de um mesmo sistema.
+
+Um sistema real:
+
+Recebe dados
+
+Processa informações
+
+Toma decisões
+
+Guarda estados
+
+Retorna resultados
+
+Programar não é apenas “fazer funcionar”, mas organizar o pensamento.
+
+2. Antes do código: entendendo o problema
+
+Todo programa começa com perguntas, não com código.
+
+Exemplo de problema simples:
+
+“Criar um sistema de pedidos de comida no console.”
+
+Antes de programar, pergunte:
+
+O que o sistema precisa fazer?
+
+Quais dados ele precisa guardar?
+
+O que pode mudar com o tempo?
+
+O que nunca muda?
+
+Quais ações o usuário pode executar?
+
+Essas perguntas evitam:
+
+Código confuso
+
+Repetição desnecessária
+
+Erros difíceis de corrigir
+
+3. Pensando em partes (quebra do problema)
+
+Um bom programador divide um problema grande em partes menores.
+
+Exemplo:
+Sistema de pedidos → pode ser dividido em:
+
+Cardápio
+
+Pedido
+
+Cliente
+
+Funções de ação (pedir, listar, remover)
+
+Cada parte tem uma responsabilidade clara.
+
+Isso se chama organização lógica do sistema.
+
+4. Fluxo do programa
+
+Todo sistema segue um fluxo:
+
+Mostrar uma mensagem inicial
+
+Criar os dados principais
+
+Executar ações (funções)
+
+Atualizar os dados
+
+Mostrar resultados
+
+Pensar nesse fluxo antes de codar deixa o programa:
+
+Mais fácil de entender
+
+Mais fácil de corrigir
+
+Mais fácil de evoluir
+
+5. Pseudocódigo (pensar sem linguagem)
+
+Antes de escrever JavaScript, você pode escrever em português estruturado:
+
+Exemplo:
+
+Criar lista de comidas
+
+Criar função pedir comida
+
+Cada pedido aumenta um contador
+
+Se atingir 10 pedidos, remover comida do cardápio
+
+Isso é chamado de pseudocódigo e é muito usado no mundo real.
+
+6. Erro faz parte do processo
+
+Nesta unidade, você vai:
+
+Errar mais
+
+Refatorar código
+
+Apagar e reescrever
+
+E isso é normal.
+
+Programadores profissionais não escrevem código perfeito de primeira.
+Eles escrevem, testam, erram, corrigem e melhoram.
+
+7. Objetivo desta aula
+
+Ao final desta aula, você deve ser capaz de:
+
+Ler um problema e entender o que ele pede
+
+Pensar na lógica antes de programar
+
+Dividir um sistema em partes
+
+Planejar o fluxo de um programa
+
+Na próxima aula, você vai transformar esse planejamento em código, criando seu primeiro sistema completo da Unidade 5.
+
+Conclusão:
+Programar não é sobre decorar comandos.
+É sobre resolver problemas de forma lógica, organizada e consciente.

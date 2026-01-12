@@ -1,0 +1,19 @@
+Nessa unidade nós vamos nos aprofundar mais em java script.
+Até aqui, nós aprendemos o básico de java script, tudo que você precisa saber para começar a fazer programas simples.
+Você aprendeu:
+
+- Tipos de dados
+- Oque são variáveis
+- Operadores do java script
+- Funções
+- Constantes
+- Loops
+- Oque são arrays
+- Métodos de arrays
+- Como percorrer arrays com loops
+
+Com tudo que você aprendeu nessas 2 unidades, nós finalmente podemos fazer programas simples.
+
+Nessa unidade, você vai programar dois programas simples
+
+os desafios vão ser muito difíceis, mas leve em consideração que seu prazo é infinito.

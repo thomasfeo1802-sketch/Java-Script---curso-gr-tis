@@ -1,0 +1,156 @@
+Validação de Ações e Regras do Sistema
+
+Nesta aula, você vai aprender um dos conceitos mais importantes da programação profissional: validação.
+
+Um sistema bem feito não confia que tudo sempre dará certo.
+Ele verifica, valida e só então executa ações.
+
+1. O que é validação?
+
+Validação é o processo de verificar se uma ação pode ou não ser executada, com base nas regras do sistema e no estado atual.
+
+Exemplos de validação:
+
+Verificar se um valor é válido
+
+Impedir ações impossíveis
+
+Evitar estados inválidos
+
+Proteger o sistema contra erros lógicos
+
+2. Por que validar é obrigatório?
+
+Sem validação:
+
+O sistema quebra
+
+Estados ficam incoerentes
+
+Erros passam despercebidos
+
+O programa perde credibilidade
+
+Com validação:
+
+O sistema é confiável
+
+As regras são respeitadas
+
+O comportamento é previsível
+
+O código se torna profissional
+
+3. Regras do sistema
+
+Todo sistema possui regras claras.
+
+Exemplos:
+
+Não é possível gastar mais do que o saldo
+
+Não é possível pedir um item esgotado
+
+Não é possível avançar sem cumprir requisitos
+
+Não é possível repetir uma ação inválida
+
+Essas regras devem estar no código, não apenas na cabeça do programador.
+
+4. Como validar no JavaScript
+
+A validação geralmente é feita com:
+
+if / else
+
+Operadores de comparação
+
+Operadores lógicos
+
+Retornos antecipados (return)
+
+A ideia é simples:
+
+Verificar a condição
+
+Se for inválida, bloquear
+
+Se for válida, continuar
+
+5. Validação dentro de funções
+
+Funções são o local ideal para validações, pois:
+
+Centralizam regras
+
+Evitam repetição de código
+
+Garantem consistência
+
+Uma função bem feita:
+
+Verifica entradas
+
+Verifica estado
+
+Só executa se tudo estiver correto
+
+6. Mensagens claras no console
+
+Quando uma ação é bloqueada, o sistema deve:
+
+Informar o motivo
+
+Ser claro
+
+Ajudar quem está usando ou testando
+
+Mensagens claras facilitam:
+
+Depuração
+
+Aprendizado
+
+Manutenção do código
+
+7. Evitando erros comuns
+
+Alguns erros que a validação evita:
+
+Números negativos indevidos
+
+Acessos inválidos a arrays
+
+Execuções fora de ordem
+
+Estados impossíveis
+
+Um bom programador antecipa problemas antes que eles aconteçam.
+
+8. Pensamento profissional
+
+Sempre pergunte:
+
+Essa ação pode acontecer agora?
+
+O estado permite isso?
+
+O que acontece se algo der errado?
+
+Programadores profissionais pensam em falhas antes de pensar em sucesso.
+
+9. Objetivo desta aula
+
+Ao final desta aula, você deve ser capaz de:
+
+Criar regras claras para um sistema
+
+Bloquear ações inválidas
+
+Garantir consistência do estado
+
+Desenvolver sistemas mais seguros e confiáveis
+
+Conclusão:
+Validação não é opcional.
+É ela que transforma um código “que funciona” em um sistema confiável e profissional.
